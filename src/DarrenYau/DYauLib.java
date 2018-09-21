@@ -8,7 +8,7 @@ public class DYauLib {
         return str.equals(result);
     }
     public static String dateStr(String str) {
-        return str.substring(3,5) + "-" + str.substring(0,2) + "-" + str.substring(6,10);
+        return str.substring(3,5) + "-" + str.substring(0,2) + "-" + str.substring(6);
     }
     public static boolean isFibonnaci(int a) {
         int b = 0;

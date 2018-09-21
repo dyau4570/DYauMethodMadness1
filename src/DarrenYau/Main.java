@@ -5,10 +5,10 @@ public class Main {
             System.out.println("\n");
             System.out.println("dateStr(\'02/08/2001\') returns "+DYauLib.dateStr("02/08/2001"));
             System.out.println("\n");
-            DYauLib.multiplicationTable(6,20);
+            DYauLib.multiplicationTable(21,5);
             System.out.println("\n");
             DYauLib.sumUpTo(10);
             System.out.println("\n");
-            System.out.println("isFibonacci(\'13\') returns "+DYauLib.isFibonnaci(13));
+            System.out.println("isFibonacci(\'13\') returns "+DYauLib.isFibonnaci(5));
         }
     }
