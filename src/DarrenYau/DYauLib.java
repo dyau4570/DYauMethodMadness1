@@ -1,5 +1,4 @@
 package DarrenYau;
-
 public class DYauLib {
     public static boolean isPalindrome(String str) {
         String result = "";
@@ -8,11 +7,9 @@ public class DYauLib {
         }
         return str.equals(result);
     }
-
     public static String dateStr(String str) {
         return str.substring(3,5) + "-" + str.substring(0,2) + "-" + str.substring(6,10);
     }
-
     public static boolean isFibonnaci(int a) {
         int b = 0;
         int c = 1;
@@ -27,7 +24,6 @@ public class DYauLib {
         }
         return false;
     }
-
     public static void multiplicationTable(int a, int b) {
         int c = 0;
         for (int i = 0; i < b; i++) {
@@ -35,7 +31,6 @@ public class DYauLib {
         }
         return;
     }
-
     public static int sumUpTo(int a) {
         int b = 1;
         int c = 0;
