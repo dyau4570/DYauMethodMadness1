@@ -1,5 +1,5 @@
 package DarrenYau;
-public class Main {
+public class testFile {
     public static void main(String[] args) {
             System.out.println("isPalindrome(\'racecar\') is "+DYauLib.isPalindrome("racecar"));
             System.out.println("\n");
